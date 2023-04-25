@@ -1,0 +1,1 @@
+data class Ground(val weight: Int, val height: Int)

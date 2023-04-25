@@ -1,10 +1,7 @@
 plugins {
     kotlin("jvm") version "1.8.0"
-    application
 }
 
-group = "ru.stringcancat"
-version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -21,8 +18,4 @@ tasks.test {
 
 kotlin {
     jvmToolchain(17)
-}
-
-application {
-    mainClass.set("MainKt")
 }
